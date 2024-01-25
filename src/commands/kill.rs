@@ -14,9 +14,9 @@ pub struct KillCommand {
 impl KillCommand {
     pub fn run(self) -> anyhow::Result<()> {
         let Self { name } = self;
-
+        
         let clients = Clients::get()?.collect_vec();
-
+        
         for client in clients {
             if client.workspace.name == format!("special:{name}") {
                 println!("Killing {:?}", client);
