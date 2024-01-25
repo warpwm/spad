@@ -1,0 +1,20 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true
+    },
+    "hide-files.files": [],
+    "python.analysis.extraPaths": [
+        "/home/bresilla/.var/app/com.visualstudio.code/data/vscode/extensions/continue.continue-0.0.412-linux-x64"
+    ],
+    "python.autoComplete.extraPaths": [
+        "/home/bresilla/.var/app/com.visualstudio.code/data/vscode/extensions/continue.continue-0.0.412-linux-x64"
+    ],
+    "rust-analyzer.linkedProjects": [
+        "./Cargo.toml"
+    ]
+}

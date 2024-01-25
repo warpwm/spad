@@ -1,0 +1,2 @@
+#!/usr/bin/sh
+clear && cd $(git rev-parse --show-toplevel) && cargo build

@@ -1,0 +1,2 @@
+#!/usr/bin/sh
+filei=$(git rev-parse --show-toplevel)/target/debug/$(basename $(git rev-parse --show-toplevel)); [[ -f $filei ]] && du -h $filei | cut -f1

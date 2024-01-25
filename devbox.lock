@@ -1,0 +1,24 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "cargo@latest": {
+      "last_modified": "2023-09-27T18:02:17Z",
+      "resolved": "github:NixOS/nixpkgs/517501bcf14ae6ec47efd6a17dda0ca8e6d866f9#cargo",
+      "source": "devbox-search",
+      "version": "1.72.0"
+    },
+    "rust-analyzer@latest": {
+      "last_modified": "2023-10-02T15:46:12Z",
+      "resolved": "github:NixOS/nixpkgs/0c7ffbc66e6d78c50c38e717ec91a2a14e0622fb#rust-analyzer",
+      "source": "devbox-search",
+      "version": "2023-09-25"
+    },
+    "rustc@latest": {
+      "last_modified": "2023-09-27T18:02:17Z",
+      "plugin_version": "0.0.1",
+      "resolved": "github:NixOS/nixpkgs/517501bcf14ae6ec47efd6a17dda0ca8e6d866f9#rustc",
+      "source": "devbox-search",
+      "version": "1.72.0"
+    }
+  }
+}

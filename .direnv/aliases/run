@@ -1,0 +1,2 @@
+#!/usr/bin/sh
+$(git rev-parse --show-toplevel)/target/debug/$(basename $(git rev-parse --show-toplevel)) $@

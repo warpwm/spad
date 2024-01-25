@@ -1,0 +1,2 @@
+#!/usr/bin/sh
+com.visualstudio.code --folder-uri "vscode-remote://ssh-remote+jammy/doc/code/PROJECTS/roc" &
